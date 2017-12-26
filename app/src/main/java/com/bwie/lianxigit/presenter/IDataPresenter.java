@@ -5,6 +5,7 @@ package com.bwie.lianxigit.presenter;
  */
 
 public interface IDataPresenter<T> {
+    //rreggresgregre
     void attach(T view);
     void detach();
 }
