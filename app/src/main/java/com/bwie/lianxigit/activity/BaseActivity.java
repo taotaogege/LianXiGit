@@ -15,6 +15,7 @@ public abstract class BaseActivity<T extends IDataPresenter> extends AppCompatAc
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+//        9999999999999
         createPresenter();
     }
 
