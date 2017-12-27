@@ -17,11 +17,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         btn = (Button) findViewById(R.id.btn_go);
+        //实现跳转   开始截屏
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, ScreenShotActivity.class));
             }
         });
+
     }
 }
