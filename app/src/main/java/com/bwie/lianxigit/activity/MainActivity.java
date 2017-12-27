@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //开始我的数据
+                //开始我的数据拉
                 startActivity(new Intent(MainActivity.this, ScreenShotActivity.class));
             }
         });
