@@ -11,6 +11,11 @@ import com.bwie.lianxigit.R;
 
 public class MainActivity extends AppCompatActivity {
 
+    /**
+     * iewufyaewio;jsdiouf9ew8ur9ew
+     * saodfyuewdfhsodc
+     * seifhwedfjsol
+     */
     Button btn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
